@@ -1,0 +1,61 @@
+.text {
+    font-family: "ClementePDae";
+    color: #1A361E;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+@media (min-width: 768px) {
+    .text {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.link {
+    font-size: 32px;
+    font-family: 'ClementePDae';
+    margin: 0px; 
+    color: #113219; 
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.rowContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+}
+
+.logo {
+    height: 32px;
+    width: auto;
+}
+
+.image {
+    height: 200px;
+    width: auto;
+}
+
+@media (min-width: 768px) {
+    .image {
+        height: 300px;
+    }
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.heading {
+    font-family: "ClementePDae";
+    font-size: 48px;
+    color: #113219;
+    text-align: center;
+}
